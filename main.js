@@ -89,7 +89,7 @@
           });
           
           document.querySelector('.payment-option[data-type="qris"]').classList.add('selected', 'pulse');
-        }
+        };
         
         // Process payment function
         function processPayment() {
